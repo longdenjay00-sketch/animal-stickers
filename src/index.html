@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Stickers — majestic die-cut wildlife</title>
+  <meta name="description" content="A pack of majestic animal sticker cut-outs with lore, facts, and known history. Lion, eagle, tiger, stallion, elephant, and more.">
+  <link rel="icon" href="assets/stickers/lion.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to pack</a>
+  <header class="top">
+    <div class="wrap bar">
+      <a class="brand" href="#/" data-nav>
+        <span class="mark" aria-hidden="true"></span>
+        <span>
+          <b>Animal Stickers</b>
+          <small>Majestic die-cut pack</small>
+        </span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#/" data-nav>Pack</a>
+        <a href="#/featured" data-nav>Featured five</a>
+        <a href="#/about" data-nav>About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section id="view-home" class="view">
+      <div class="hero">
+        <div>
+          <p class="kicker">Sixteen WebP cut-outs · eleven species</p>
+          <h1>Stickers of beasts that still rule a story.</h1>
+          <p class="lede">Die-cut portraits and full-body scenes. Peel one, read the lore, keep the facts. Lion, eagle, tiger, stallion, elephant lead the pack.</p>
+        </div>
+        <div class="hero-tools">
+          <label class="search">
+            <span class="sr">Search the pack</span>
+            <input id="q" type="search" placeholder="Search lion, eagle, tiger…" autocomplete="off">
+          </label>
+          <p class="count" id="count"></p>
+        </div>
+      </div>
+      <div id="gallery" class="gallery" aria-live="polite"></div>
+    </section>
+
+    <section id="view-animal" class="view hidden" hidden></section>
+
+    <section id="view-about" class="view hidden" hidden>
+      <article class="about">
+        <p class="kicker">About the pack</p>
+        <h1>Cut-outs, then history.</h1>
+        <p>Each sticker is a painterly die-cut: thick white border, solid sheet colour, one animal. The five featured cards — lion, golden eagle, Bengal tiger, black stallion, African savanna elephant — carry full lore, measured facts, and known history drawn from IUCN Red List assessments and primary papers. The rest of the pack has shorter field notes.</p>
+        <p>This is a static HTML, CSS, and JS site. Data lives in <code>data/animals.json</code>. Lore lives in Markdown under <code>lore/</code>. Hosting is GitHub Pages from <code>src/</code> via Actions; Vercel is the next hop. See <code>GITHUB_PRACTICES.md</code> and <code>HOSTING.md</code> in the repo.</p>
+        <ul class="links">
+          <li><a href="https://github.com/longdenjay00-sketch/animal-stickers">GitHub repository</a></li>
+          <li><a href="https://longdenjay00-sketch.github.io/animal-stickers/">GitHub Pages</a></li>
+          <li><a href="https://animal-stickers.vercel.app">Vercel (claim / launch)</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p>Animal Stickers · generated 11 Nov 2026 · public art/lore gallery</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

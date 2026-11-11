@@ -1,0 +1,31 @@
+{
+  "projectName": "animal-stickers",
+  "desiredProductionUrl": "https://animal-stickers.vercel.app",
+  "githubRepo": "https://github.com/longdenjay00-sketch/animal-stickers",
+  "githubPagesUrl": "https://longdenjay00-sketch.github.io/animal-stickers/",
+  "rootDirectory": "src",
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": "src",
+  "cli": {
+    "loggedInOnAuthoringMachine": false,
+    "vercelCliVersionSeen": "65.2.0",
+    "commands": [
+      "vercel login",
+      "vercel link --yes --project animal-stickers",
+      "vercel deploy src --yes --name animal-stickers --prod"
+    ],
+    "temporaryDeploy": "vercel deploy src --temporary --yes --name animal-stickers"
+  },
+  "dashboard": {
+    "import": "https://vercel.com/new",
+    "rootDirectory": "src",
+    "frameworkPreset": "Other"
+  },
+  "notes": [
+    "Vercel CLI in the build session reported Logged out. No token was available.",
+    "animal-stickers.vercel.app is assigned when a logged-in Hobby/Pro account creates a project named animal-stickers.",
+    "These can be separate from GitHub Pages; this JSON is the handoff if git-pages is live and Vercel is not."
+  ]
+}
