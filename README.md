@@ -11,6 +11,8 @@ Majestic die-cut wildlife stickers (WebP) plus lore, facts, and known history.
 | GitHub repo | https://github.com/longdenjay00-sketch/animal-stickers |
 | GitHub Pages | https://longdenjay00-sketch.github.io/animal-stickers/ |
 | Vercel (target) | https://animal-stickers.vercel.app |
+| Vercel claim (do this) | https://vercel.com/claim-deployment?code=0682f2fc-c449-45c0-a796-6b9d04321c73 |
+| Daily report | [DAILY_REPORT.md](DAILY_REPORT.md) |
 | Practices | [GITHUB_PRACTICES.md](GITHUB_PRACTICES.md) |
 | Hosting | [HOSTING.md](HOSTING.md) |
 | Vercel handoff JSON | [data/vercel-launch.json](data/vercel-launch.json) |

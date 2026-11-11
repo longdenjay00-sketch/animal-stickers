@@ -3,6 +3,7 @@
   "desiredProductionUrl": "https://animal-stickers.vercel.app",
   "githubRepo": "https://github.com/longdenjay00-sketch/animal-stickers",
   "githubPagesUrl": "https://longdenjay00-sketch.github.io/animal-stickers/",
+  "githubPagesLive": true,
   "rootDirectory": "src",
   "framework": null,
   "buildCommand": null,
@@ -11,21 +12,31 @@
   "cli": {
     "loggedInOnAuthoringMachine": false,
     "vercelCliVersionSeen": "65.2.0",
+    "ciEnvBlockedFirstAttempt": true,
     "commands": [
       "vercel login",
       "vercel link --yes --project animal-stickers",
-      "vercel deploy src --yes --name animal-stickers --prod"
-    ],
-    "temporaryDeploy": "vercel deploy src --temporary --yes --name animal-stickers"
+      "vercel deploy src --yes --prod --project animal-stickers"
+    ]
+  },
+  "temporaryDeployment": {
+    "url": "https://zippy-iron-9k8cw6g.tmp.now",
+    "claimUrl": "https://vercel.com/claim-deployment?code=0682f2fc-c449-45c0-a796-6b9d04321c73",
+    "createdUtc": "2026-11-11T05:34:00Z",
+    "expiresInMinutes": 59,
+    "anonymous": true,
+    "httpStatusUnclaimed": 403,
+    "howToGetAnimalStickersVercelApp": "Claim the deployment, name the project animal-stickers, then the Hobby alias is https://animal-stickers.vercel.app"
   },
   "dashboard": {
     "import": "https://vercel.com/new",
     "rootDirectory": "src",
-    "frameworkPreset": "Other"
+    "frameworkPreset": "Other",
+    "connectGitHubRepo": "longdenjay00-sketch/animal-stickers"
   },
   "notes": [
-    "Vercel CLI in the build session reported Logged out. No token was available.",
-    "animal-stickers.vercel.app is assigned when a logged-in Hobby/Pro account creates a project named animal-stickers.",
-    "These can be separate from GitHub Pages; this JSON is the handoff if git-pages is live and Vercel is not."
+    "Vercel CLI had no credentials. CI=true blocked --temporary until CI was unset.",
+    "GitHub Pages is already live. Vercel is a separate host.",
+    "Claim the temporary deployment or import the GitHub repo with Root Directory src."
   ]
 }
